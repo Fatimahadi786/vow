@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/signin.css'>
+    <script src='main.js'></script>
+</head>
+
+    <body>
+        <div class="form-container">
+          <h2>Register for Home Services</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="pass">Password:</label>
+              <input type="password" id="pass" name="pass" required>
+            </div>
+            <div class="form-group">
+              <label for="cpass">Conform password:</label>
+              <input type="password" id="cpass" name="cpass" required>
+            </div>
+            <div class="form-group">
+              <label for="services">Services:</label>
+              <select id="services" name="services" required>
+                <option value="">Select a service</option>
+                <option value="cleaning">Cleaning</option>
+                <option value="tailor">tailor</option>
+                <option value="handcraft">handcraft</option>
+                <option value="electrician">electrician</option>
+                <option value="plumber">plumber</option>
+                <option value="beauty-salon">beauty-salon</option>
+                <option value="mehndi-designer">mehndi-designer</option>
+                <option value="transport">transport</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+</body>
+</html>
